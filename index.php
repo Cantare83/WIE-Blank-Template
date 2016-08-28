@@ -8,21 +8,27 @@
     </head>
     <body>
       <div class="container">
-          <header>
-              <h1>Christina Hendricks Blank WordPress Template</h1>
-              <p>This is my WordPress template.</p>
+          <header class="row">
+              <div class="twelve columns">
+                  <h1>Christina Hendricks Blank WordPress Template</h1>
+                  <p>This is my WordPress template.</p>
+              </div>
           </header>
-          <section>
-              <h2>Section Content</h2>
-              <p>
-                This is some cool section content
-              </p>
+          <section class="row">
+              <div class="twelve columns">
+                  <h2>Section Content</h2>
+                  <p>
+                    This is some cool section content
+                  </p>
+              </div>
           </section>
-          <footer>
-              <h2>This is the Footer</h2>
-              <p>
-                This is some cool footer content
-              </p>
+          <footer class="row">
+              <div class="twelve columns">
+                  <h2>This is the Footer</h2>
+                  <p>
+                    This is some cool footer content
+                  </p>
+              </div>
           </footer>
       </div>
     </body>
