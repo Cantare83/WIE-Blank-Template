@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <section class="row">
-        <div class="twelve columns">
+        <div class="eight columns">
 
 <!-- Begin Page PHP -->
             <?php if( have_posts() ) {
@@ -14,8 +14,12 @@
               }
             } ?>
 <!-- End Page PHP -->
-
         </div>
+
+        <div class="four columns">
+          <?php get_sidebar(); ?>
+        </div>
+
     </section>
 
 <?php get_footer(); ?>
