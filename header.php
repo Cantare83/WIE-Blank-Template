@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Christina Hendricks Blank Template</title>
+        <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     </head>
