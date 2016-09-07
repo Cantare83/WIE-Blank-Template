@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Christina Hendricks Blank Template</title>
+        <title><?php bloginfo('name'); ?></title>
         <?php wp_head(); ?>
           <!-- Links to our Style.css file -->
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
@@ -11,7 +11,7 @@
       <div class="container"> <!-- Begin Container Div -->
         <header class="row">
             <div class="twelve columns">
-                <h1>Christina Hendricks Blank WordPress Template</h1>
-                <p>This is my WordPress template.</p>
+                <h1><?php bloginfo('name'); ?></h1>
+                <h2><?php bloginfo('description'); ?></h2>
             </div>
         </header>
